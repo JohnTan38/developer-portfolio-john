@@ -4,7 +4,7 @@
 
 ---
 
-# [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
+# [Built Portfolio With GitHub ](https://github.com/JohnTan38/developer-portfolio-john)
 
 ---
 
