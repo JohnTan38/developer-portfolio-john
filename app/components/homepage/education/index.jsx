@@ -26,7 +26,7 @@ function Education() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Educations
+            Education & Qualifications
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -45,7 +45,7 @@ function Education() {
               {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
-                    <div className="p-3 relative text-white">
+                    <div className="p-3 relative text-theme-primary">
                       <Image
                         src="/blur-23.svg"
                         alt="Hero"
@@ -54,7 +54,7 @@ function Education() {
                         className="absolute bottom-0 opacity-80"
                       />
                       <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
+                        <p className="text-xs sm:text-sm text-theme-accent">
                           {education.duration}
                         </p>
                       </div>
@@ -63,10 +63,10 @@ function Education() {
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                          <p className="text-base sm:text-xl mb-2 font-medium uppercase text-theme-primary">
                             {education.title}
                           </p>
-                          <p className="text-sm sm:text-base">{education.institution}</p>
+                          <p className="text-sm sm:text-base text-theme-muted">{education.institution}</p>
                         </div>
                       </div>
                     </div>

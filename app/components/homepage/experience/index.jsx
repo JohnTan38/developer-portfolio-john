@@ -22,7 +22,7 @@ function Experience() {
         <div className="flex  items-center">
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
           <span className="bg-[#1a1443] w-fit text-white p-2 px-5 text-xl rounded-md">
-            Experiences
+            Professional Experience
           </span>
           <span className="w-24 h-[2px] bg-[#1a1443]"></span>
         </div>
@@ -41,7 +41,7 @@ function Experience() {
               {
                 experiences.map(experience => (
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
-                    <div className="p-3 relative">
+                    <div className="p-3 relative text-theme-primary">
                       <Image
                         src="/blur-23.svg"
                         alt="Hero"
@@ -50,7 +50,7 @@ function Experience() {
                         className="absolute bottom-0 opacity-80"
                       />
                       <div className="flex justify-center">
-                        <p className="text-xs sm:text-sm text-[#16f2b3]">
+                        <p className="text-xs sm:text-sm text-theme-accent">
                           {experience.duration}
                         </p>
                       </div>
@@ -59,10 +59,10 @@ function Experience() {
                           <BsPersonWorkspace size={36} />
                         </div>
                         <div>
-                          <p className="text-base sm:text-xl mb-2 font-medium uppercase">
+                          <p className="text-base sm:text-xl mb-2 font-medium uppercase text-theme-primary">
                             {experience.title}
                           </p>
-                          <p className="text-sm sm:text-base">
+                          <p className="text-sm sm:text-base text-theme-muted">
                             {experience.company}
                           </p>
                         </div>

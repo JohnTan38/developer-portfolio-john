@@ -20,7 +20,7 @@ function BlogCard({ blog }) {
         />
       </div>
       <div className="p-2 sm:p-3 flex flex-col">
-        <div className="flex justify-between items-center text-[#16f2b3] text-sm">
+        <div className="flex justify-between items-center text-theme-accent text-sm">
           <p>{timeConverter(blog.published_at)}</p>
           <div className="flex items-center gap-3">
             <p className="flex items-center gap-1">
@@ -36,14 +36,14 @@ function BlogCard({ blog }) {
           </div>
         </div>
         <Link target='_blank' href={blog.url}>
-          <p className='my-2 lg:my-3 cursor-pointer text-lg text-white sm:text-xl font-medium hover:text-violet-500'>
+          <p className='my-2 lg:my-3 cursor-pointer text-lg text-theme-primary sm:text-xl font-medium hover:text-violet-500'>
             {blog.title}
           </p>
         </Link>
-        <p className='mb-2 text-sm text-[#16f2b3]'>
+        <p className='mb-2 text-sm text-theme-accent'>
           {`${blog.reading_time_minutes} Min Read`}
         </p>
-        <p className='text-sm lg:text-base text-[#d3d8e8] pb-3 lg:pb-6 line-clamp-3'>
+        <p className='text-sm lg:text-base text-theme-muted pb-3 lg:pb-6 line-clamp-3'>
           {blog.description}
         </p>
         {/* <div className="">
