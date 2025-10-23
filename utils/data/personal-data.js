@@ -2,7 +2,7 @@ export const personalData = {
   name: "John Tan",
   profile: '/profile.png',
   designation: "Software Engineer",
-  description: "My name is John Tan. I am a professional and enthusiastic data analyst in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript.",
+  description: "My name is John Tan. I am a professional and enthusiastic data analyst in my daily life. I am a quick learner with a self-learning attitude. I love to explore new technologies and passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and Python and I love to do most of the things using JavaScript.",
   email: 'sxk2929@gmail.com',
   phone: '+6598891383',
   address: '38 Cairnhill Road, Singapore',
