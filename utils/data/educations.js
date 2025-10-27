@@ -7,7 +7,7 @@ export const educations = [
   },
   {
     id: 2,
-    title: "Bachelor of Science in Computer Science",
+    title: "Bachelor of Science (Mathematics)",
     duration: "1991 - 1995",
     institution: "National University of Singapore",
   },
