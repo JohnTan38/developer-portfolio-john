@@ -14,7 +14,13 @@ export const metadata = {
   title: "John Tan - Software Developer",
   description:
     "This is the portfolio of John Tan. I am a Gen AI/ML software engineer and a self taught full stack developer. I love to learn new technologies and I am always open to collaborating with fellow developers. I am a quick learner and I am always looking for new challenges.",
-};
+  // add favicon/icon metadata here in the future
+  icons: {
+    icon: '/profile.png',
+    shortcut: '/profile.png',
+    apple: '/profile.png',
+    },
+  };
 
 export default function RootLayout({ children }) {
   return (
