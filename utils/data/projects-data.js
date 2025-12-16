@@ -10,7 +10,7 @@ export const projectsData = [
     },
     {
         id: 2,
-        name: 'Data Analysis & Visualization App',
+        name: 'Data Analysis & Visualization with OpenAI',
         description: 'Designed and developed a full-stack web app for data analysis and visualizations, leveraging on LLM. I created the UI using NextJS, Typescript, TailwindCSS, and react. The app supports multiple models from OpenAI, Anthropic and Gemini. developed the API using NestJS, Typescript, PostgresSQL. Deployed the back-end app to GCP.',
         tools: ['NextJS', 'Tailwind CSS', "TypeScript", "PostgresSQL", "GCP"],
         role: 'Backend Developer',
@@ -51,3 +51,4 @@ export const projectsData = [
 //     demo: '',
 
 // },
+
