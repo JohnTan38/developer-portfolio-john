@@ -28,8 +28,7 @@ function ThemeProvider({ children }) {
       return;
     }
 
-    const prefersDark = window.matchMedia?.("(prefers-color-scheme: dark)").matches;
-    const initialTheme = prefersDark ? "dark" : "light";
+    const initialTheme = "dark";
     setTheme(initialTheme);
     applyThemeClass(initialTheme);
   }, []);
