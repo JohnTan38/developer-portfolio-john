@@ -28,12 +28,12 @@ export const projectsData = [
     },
     {
         id: 4,
-        name: 'AI Powered Financial App',
-        description: "My team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
+        name: 'Query Your Docs with OpenAI',
+        description: "My team built a Retrieval Augmented Generation application. I developed the API using OpenAI Responses api, Typescript, OpenAI. Built AI assistants using OpenAI's latest model and trained using our dataset. App returns well formatted text from unstructured data like images, tables.",
+        tools: ['Typescript', 'NextJS', 'OpenAI Responses API', 'Vercel'],
         role: 'Backend Developer',
         code: '',
-        demo: '',
+        demo: 'https://vision-rag-openai.vercel.app',
                 
     }
 ];
@@ -51,4 +51,5 @@ export const projectsData = [
 //     demo: '',
 
 // },
+
 
